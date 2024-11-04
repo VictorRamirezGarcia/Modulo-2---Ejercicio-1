@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+    <style>
+
+#footer {
+      background-color: #7b82b5;
+      position: relative;
+      display: inline-block;
+      bottom: 0;
+      width: 100%;
+      height: 120px;
+      color: white;
+    }
+.button {
+  border: rgb(5, 236, 236);
+  color: rgb(239, 16, 16);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(247, 247, 3);
+}
+ 
+</style>
+<head>
+
+    
+<title>Pagina Hospital Clinico Dr. Victor Ramirez</title>
+</head>
+<body>
+  <img src="logitohospital.png" alt="Logotipo del Hospital" width="100" height="100" />
+    
+  <div >
+    <nav >   
+        <a href="index.html">Home</a>  |
+        <a href="equipo.html">Equipo</a>  |
+        <a href="contacto.html">Contacto</a> 
+        <button class="button" type="button">Reservar Cita</button>
+    </nav>
+  </div>
+
+<h1>Formulario de Contacto:</h1>
+    <section>
+
+      <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+            <label for="asunto">Asunto:</label>
+            <select name="menu">
+              <option value="0">Seleccione un asunto..</option>
+              <option value="1">Medicina General</option>
+              <option value="2">Urgencia Ambulatoria</option>
+              <option value="3">Toma de Muestras</option>
+            </select>
+          </li>
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Envíe su mensaje</button>
+          </li>
+        </ul>
+      </form>
+
+    </section>
+    <h1>Mapa Ubicacion Hospital:</h1>
+    <section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51245.07064547779!2d-72.13834542089839!3d-36.606718300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9668d7d7adad289d%3A0x6bc898701d5885c4!2sPlaza%20de%20Armas%20de%20Chill%C3%A1n!5e0!3m2!1ses!2scl!4v1729470308816!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <div id="footer" >
+    <footer>
+        <p>&copy; 2024 Curso Front-End</p>
+        <ul>
+        <li><a href="/acerca-de">Acerca de</a></li>
+        <li><a href="/conectar">Conectar</a></li>
+        <li><a href="/rrss">Redes Sociales</a></li>
+        </ul>
+    </footer>    
+    </div>
+
+    
+</body>
+</html>
